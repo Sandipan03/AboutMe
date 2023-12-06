@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandipan</title>
+    <link rel="stylesheet" href="/static/sandy.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<!-- <script src="{{ url_for('static', filename='sandy.js') }}"></script> -->
+</head>
+<body>
+    <h2>Intro</h2>
+    <p>Hi. My name is Sandipan Mukherjee. I am a student of SRM Institute of Science and Technology, Vadapalani, Chennai. <br> 
+        I am currently in my third year of engineering.</p>
+    <h2>About Me</h2>
+    <p>I am a 20-year old engineering student studying studying at <strong>SRM Institute of Science and Technology, Vadapalani, Chennai</strong>.
+    I completed my 10th and 12th standards from <strong>B.D.M International School, Kolkata</strong>. I am currently in my third year and in the process 
+    of developing my skill-set. <br><br>I hail from the beautiful city of <strong>Kolkata</strong>, also known as the <em>city of joy</em>.  </p>
+    <h2>Profiles and Links</h2>
+    <ul id="links">
+        <li class="green">
+            <a href="https://auth.geeksforgeeks.org/user/sandipan6900/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user" target="_blank" class="green">Link to my GeeksForGeeks profile</a>
+        </li>
+        <li class="blue">
+            <a href="https://www.linkedin.com/in/sandipan-mukherjee-88064a216/" target="_blank" class="blue"> Link to my linkedin profile</a>
+        </li>
+    </ul>
+    
+    <br>
+    <br>
+    <figure>
+        <center><img src="../static/Sandipan YLP 2014.jpeg" alt="Error loading image" height="300" width="600"  id="img1"></center>
+        <center><figcaption id="fc1"><strong><a href="https://www.instagram.com/ylp_bahrain/" id="spl">YLP Bahrain 2014(3rd from left, 1st row)</a></strong></figcaption></center>
+    </figure>
+    <h2>Particulars</h2>
+    <details class="violet">
+        <summary>Hobbies</summary>
+        <ul>
+            <li>Watching movies and web series </li>
+            <li>Listening to music</li>
+        </ul>
+    </details>
+    <details class="green">
+        <summary>Favourite genres of movies</summary>
+        <ul>
+            <li>Crime </li>
+            <li>Action</li>
+            <li>Thriller</li>
+        </ul>
+    </details>
+
+    <details class="maroon">
+        <summary>Favourite genres of music</summary>
+        <ul>
+            <li>Hip hop</li>
+            <li>Popular Music</li>
+            <li>Disco</li>
+
+        </ul>
+    </details>
+    <div class="container">
+        <h2>Education</h2>
+     <div class="box">
+        <h4>Schooling</h4>
+        <ul>
+            <li>St. Clares Convent High School, Guwahati (2006-2011)</li>
+            <li>The Asian School, Bahrain (2012-2015)</li>
+            <li>B.D.M Interantional School, Kolkata (2015-2021)</li>
+        </ul>
+    </div>
+    <div class="box">
+        <h4>Graduation</h4>
+        S.R.M Institute of Science and Technology, Vadapalani, Chennai<br>Batch: 2021-2025
+    </div> 
+    <div class="box">
+        <h4>Work Experience</h4>
+        None
+    </div>
+    </div>
+    <h2>Connect With Me</h2>
+    <section id="form1" >
+        <form action="/" method="POST">
+            <div class="fele">
+                <label for="name" class="label">Name:</label> <br>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+            </div>
+            <div class="fele">
+                <label for="gender" class="label">Gender:</label><br>
+                Female <input type="radio" name="gender"> Male <input type="radio" name="Gender"> Others <input type="radio" name="Gender">
+            </div>
+            <div class="fele">
+                <label for="email" class="label">Email Address:</label> <br>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+            </div>
+            <div class="fele">
+                <label for="phone" class="label">Phone Number:</label> <br>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone no.">
+            </div>
+            <div class="fele">
+                <label for="country" class="label">Country/Region:</label> <br>
+                <input type="text" id="country" name="country" placeholder="Where are you from ?">
+            </div>
+            <div class="fele">
+                <label for="desc" class="label">Description</label><br>
+                <textarea name="desc" id="desc" cols="50" rows="10" placeholder="Tell something about yourself..." ></textarea>
+            </div>
+            <div class="fele">
+                <button type="submit" class="btn">Submit</button>
+                <button type="reset" class="btn">Reset</button>
+            </div>
+    
+        </form>
+    </section>
+    
+    
+    <footer align="center" id="footer">
+        <p>Thank You</p>
+    </footer>
+</body>
+</html>

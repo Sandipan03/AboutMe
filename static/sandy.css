@@ -1,0 +1,118 @@
+.red{
+    color:red ;
+}
+.green{
+    color:green; 
+}
+.blue{
+    color:rgb(59, 59, 137);
+}
+.yellow{
+    color:rgb(232, 232, 27);
+}
+.violet{
+    color:blueviolet;
+}
+h2{
+    color:red
+}
+.maroon{
+    color:maroon ;
+}
+body{
+    font-size: 18px;
+    line-height: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(195, 185, 172);
+    padding: 20px;
+    border: 20px solid grey;
+    margin: 10px;
+    /* box-sizing: border-box; */
+}
+#footer{
+    font-weight: bolder;
+    font-size: 35px;
+    font-style: italic;
+    color: red;
+
+    
+}
+a{
+    text-decoration: none;
+    line-height: 2em;
+}
+a:hover{
+    cursor: pointer;
+    color:rgb(70, 59, 59);
+}
+.box{
+    border: 3px solid black;
+    display: inline-block;
+    margin:10px;
+    padding:10px;
+    width: 30%;
+    height: 250px;
+    box-sizing: border-box;
+    background-color: rgb(200, 189, 189);
+    vertical-align: middle;
+    box-shadow: -10px 10px  rgb(97, 95, 95);
+    transition-property: background-color;
+    transition-duration: 0.3s;
+}
+.box:hover{
+    background-color: white;
+    width: 33.05%;
+    height: 255px ;
+    font-size: 21px;
+}
+.container{
+    margin: auto;
+    box-sizing: border-box;
+}
+#img{
+    transition-property: height,width ;
+    transition-duration: 0.3s;
+}
+#img1:hover{
+    filter: grayscale(90%);
+}
+/* #fc1{
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+#fc1:hover{
+    color: rgb(212, 205, 205);
+} */
+.fele{
+    /* align-items: center; */
+    margin: 10px;
+    /* position: relative; */
+    justify-content: center;
+}
+#name,#email,#phone,#country{
+    width: 300px;
+    height: 30px;
+    border-radius: 7px;
+}
+#desc{
+    border-radius: 7px;
+}
+.btn{
+    width: 100px;
+    height: 25px;
+    border-radius: 7px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(187, 183, 183);
+}
+#spl{
+    text-decoration: none;
+    color: black;
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+#spl:hover{
+    color: rgb(212, 205, 205);
+    cursor: pointer;
+}

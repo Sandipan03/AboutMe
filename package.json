@@ -1,0 +1,14 @@
+{
+  "name": "mypack",
+  "version": "1.0.0",
+  "description": "Package created to understand node and express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sandipan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
